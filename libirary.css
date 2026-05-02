@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eee;
+}
+
+.one {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.two {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.card2 {
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+
+}
+
+.header {
+    text-align: start;
+    padding: 5px 20px;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+.header p {
+    color: rgb(107, 106, 106);
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hero-img {
+    width: 50%;
+    height: 500px;
+    background: url(../img/l1.jpg)center/cover;
+    border-radius: 10px;
+}
+
+.hero-text {
+    width: 50%;
+    display: flex;
+    align-items: start;
+}
+
+.tit {
+    width: 70%;
+    display: flex;
+    padding: 15px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background: rgb(196, 194, 194);
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+.why {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.why h2 {
+    margin-bottom: 10px;
+
+
+}
+
+.why ul {
+    padding-left: 40px;
+    list-style: none;
+}
+
+.why li {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+
+    object-fit: cover;
+    gap: 10px;
+}
+
+.gallery .img {
+    width: 25%;
+    height: 200px;
+
+    border-radius: 10px;
+}
+
+.gallery .img1 {
+    background: url(../img/l6.jpg) center/cover no-repeat;
+}
+
+.gallery .img2 {
+    background: url(../img/l3.jpg) center/cover no-repeat;
+}
+
+.gallery .img3 {
+    background: url(../img/l4.jpg) center/cover no-repeat;
+}
+
+.gallery .img4 {
+    background: url(../img/l5.jpg) center/cover no-repeat;
+}
+
+.three {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.back {
+    text-align: center;
+    margin: 30px;
+
+
+}
+
+.back button {
+    width: 20%;
+    height: 60px;
+
+    padding: 10px 20px;
+    background: #747370;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.back button:hover {
+    background: rgb(216, 212, 212);
+
+    transition: transform 0.5s ease;
+}
